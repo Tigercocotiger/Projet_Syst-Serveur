@@ -1,0 +1,102 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#searchInput {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.add-user-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.add-user-container input[type="text"],
+.add-user-container input[type="password"],
+.add-user-container input[type="email"] {
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.add-user-container input[type="submit"] {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
